@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>FD529B6B-9D84-419D-A404-80CA907DC986</string>
+	<key>IDESourceControlProjectName</key>
+	<string>cmidi</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>622C2CC76ACD0738FDD5E3F8EE057D9C0BDBF32E</key>
+		<string>https://bitbucket.org/jmattiello/bs2forlive.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>cmidi/cmidi.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>622C2CC76ACD0738FDD5E3F8EE057D9C0BDBF32E</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://bitbucket.org/jmattiello/bs2forlive.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>622C2CC76ACD0738FDD5E3F8EE057D9C0BDBF32E</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>622C2CC76ACD0738FDD5E3F8EE057D9C0BDBF32E</string>
+			<key>IDESourceControlWCCName</key>
+			<string>BassStationIIMaxForLive%20Pro</string>
+		</dict>
+	</array>
+</dict>
+</plist>

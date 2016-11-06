@@ -1,0 +1,257 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		22CF122B0EE9AAAD0054F513 /* cmidi.c in Sources */ = {isa = PBXBuildFile; fileRef = 22CF122A0EE9AAAD0054F513 /* cmidi.c */; };
+		B376EBC41A910003008C15D6 /* CoreMIDI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B376EBC31A910003008C15D6 /* CoreMIDI.framework */; };
+		B376EBC61A9107C4008C15D6 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B376EBC51A9107C4008C15D6 /* CoreFoundation.framework */; };
+		B376EBC91A913278008C15D6 /* CoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B376EBC81A913278008C15D6 /* CoreServices.framework */; };
+		B376EBCC1A92495B008C15D6 /* coremidi.c in Sources */ = {isa = PBXBuildFile; fileRef = B376EBCA1A92495B008C15D6 /* coremidi.c */; };
+		B376EBCD1A92495B008C15D6 /* coremidi.h in Headers */ = {isa = PBXBuildFile; fileRef = B376EBCB1A92495B008C15D6 /* coremidi.h */; };
+		B376EBD31A925042008C15D6 /* RtMidi.h in Headers */ = {isa = PBXBuildFile; fileRef = B376EBD11A925042008C15D6 /* RtMidi.h */; };
+		B376EBD91A925175008C15D6 /* RtMidiC.h in Headers */ = {isa = PBXBuildFile; fileRef = B376EBD71A925175008C15D6 /* RtMidiC.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		22CF10220EE984600054F513 /* maxmspsdk.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = maxmspsdk.xcconfig; sourceTree = SOURCE_ROOT; };
+		22CF122A0EE9AAAD0054F513 /* cmidi.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cmidi.c; sourceTree = "<group>"; };
+		2FBBEAE508F335360078DB84 /* cmidi.mxo */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = cmidi.mxo; sourceTree = BUILT_PRODUCTS_DIR; };
+		B376EBC31A910003008C15D6 /* CoreMIDI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMIDI.framework; path = System/Library/Frameworks/CoreMIDI.framework; sourceTree = SDKROOT; };
+		B376EBC51A9107C4008C15D6 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		B376EBC81A913278008C15D6 /* CoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreServices.framework; path = System/Library/Frameworks/CoreServices.framework; sourceTree = SDKROOT; };
+		B376EBCA1A92495B008C15D6 /* coremidi.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = coremidi.c; sourceTree = "<group>"; };
+		B376EBCB1A92495B008C15D6 /* coremidi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = coremidi.h; sourceTree = "<group>"; };
+		B376EBCF1A9249D7008C15D6 /* cmidi_structs.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = cmidi_structs.h; sourceTree = "<group>"; };
+		B376EBD01A925042008C15D6 /* RtMidi.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = RtMidi.cpp; path = "../../../Downloads/rtmidi-master/RtMidi.cpp"; sourceTree = "<group>"; };
+		B376EBD11A925042008C15D6 /* RtMidi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RtMidi.h; path = "../../../Downloads/rtmidi-master/RtMidi.h"; sourceTree = "<group>"; };
+		B376EBD61A925175008C15D6 /* RtMidiC.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = RtMidiC.cpp; path = "../../../Downloads/rtmidi-master 2/RtMidiC.cpp"; sourceTree = "<group>"; };
+		B376EBD71A925175008C15D6 /* RtMidiC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RtMidiC.h; path = "../../../Downloads/rtmidi-master 2/RtMidiC.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2FBBEADC08F335360078DB84 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B376EBC91A913278008C15D6 /* CoreServices.framework in Frameworks */,
+				B376EBC61A9107C4008C15D6 /* CoreFoundation.framework in Frameworks */,
+				B376EBC41A910003008C15D6 /* CoreMIDI.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		089C166AFE841209C02AAC07 /* iterator */ = {
+			isa = PBXGroup;
+			children = (
+				B376EBD51A925056008C15D6 /* CoreMIDI */,
+				B376EBD41A925048008C15D6 /* RtMidi */,
+				22CF10220EE984600054F513 /* maxmspsdk.xcconfig */,
+				22CF122A0EE9AAAD0054F513 /* cmidi.c */,
+				B376EBCF1A9249D7008C15D6 /* cmidi_structs.h */,
+				B376EBC71A9107E8008C15D6 /* Frameworks */,
+				19C28FB4FE9D528D11CA2CBB /* Products */,
+			);
+			name = iterator;
+			sourceTree = "<group>";
+		};
+		19C28FB4FE9D528D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2FBBEAE508F335360078DB84 /* cmidi.mxo */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B376EBC71A9107E8008C15D6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B376EBC81A913278008C15D6 /* CoreServices.framework */,
+				B376EBC51A9107C4008C15D6 /* CoreFoundation.framework */,
+				B376EBC31A910003008C15D6 /* CoreMIDI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B376EBD41A925048008C15D6 /* RtMidi */ = {
+			isa = PBXGroup;
+			children = (
+				B376EBD71A925175008C15D6 /* RtMidiC.h */,
+				B376EBD61A925175008C15D6 /* RtMidiC.cpp */,
+				B376EBD11A925042008C15D6 /* RtMidi.h */,
+				B376EBD01A925042008C15D6 /* RtMidi.cpp */,
+			);
+			name = RtMidi;
+			sourceTree = "<group>";
+		};
+		B376EBD51A925056008C15D6 /* CoreMIDI */ = {
+			isa = PBXGroup;
+			children = (
+				B376EBCB1A92495B008C15D6 /* coremidi.h */,
+				B376EBCA1A92495B008C15D6 /* coremidi.c */,
+			);
+			name = CoreMIDI;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		2FBBEAD708F335360078DB84 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B376EBCD1A92495B008C15D6 /* coremidi.h in Headers */,
+				B376EBD91A925175008C15D6 /* RtMidiC.h in Headers */,
+				B376EBD31A925042008C15D6 /* RtMidi.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		2FBBEAD608F335360078DB84 /* max-external */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2FBBEAE008F335360078DB84 /* Build configuration list for PBXNativeTarget "max-external" */;
+			buildPhases = (
+				2FBBEAD708F335360078DB84 /* Headers */,
+				2FBBEAD808F335360078DB84 /* Resources */,
+				2FBBEADA08F335360078DB84 /* Sources */,
+				2FBBEADC08F335360078DB84 /* Frameworks */,
+				2FBBEADF08F335360078DB84 /* Rez */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "max-external";
+			productName = iterator;
+			productReference = 2FBBEAE508F335360078DB84 /* cmidi.mxo */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		089C1669FE841209C02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+			};
+			buildConfigurationList = 2FBBEACF08F335010078DB84 /* Build configuration list for PBXProject "cmidi" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 089C166AFE841209C02AAC07 /* iterator */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2FBBEAD608F335360078DB84 /* max-external */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2FBBEAD808F335360078DB84 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXRezBuildPhase section */
+		2FBBEADF08F335360078DB84 /* Rez */ = {
+			isa = PBXRezBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXRezBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2FBBEADA08F335360078DB84 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22CF122B0EE9AAAD0054F513 /* cmidi.c in Sources */,
+				B376EBCC1A92495B008C15D6 /* coremidi.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		2FBBEAD008F335010078DB84 /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Development;
+		};
+		2FBBEAD108F335010078DB84 /* Deployment */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Deployment;
+		};
+		2FBBEAE108F335360078DB84 /* Development */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 22CF10220EE984600054F513 /* maxmspsdk.xcconfig */;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				OTHER_CFLAGS = (
+					"-fvisibility=hidden",
+					"-DDEBUG",
+				);
+				OTHER_LDFLAGS = "$(C74_SYM_LINKER_FLAGS)";
+				PRODUCT_NAME = cmidi;
+			};
+			name = Development;
+		};
+		2FBBEAE208F335360078DB84 /* Deployment */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 22CF10220EE984600054F513 /* maxmspsdk.xcconfig */;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = YES;
+				OTHER_LDFLAGS = "$(C74_SYM_LINKER_FLAGS)";
+				PRODUCT_NAME = cmidi;
+			};
+			name = Deployment;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2FBBEACF08F335010078DB84 /* Build configuration list for PBXProject "cmidi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2FBBEAD008F335010078DB84 /* Development */,
+				2FBBEAD108F335010078DB84 /* Deployment */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Development;
+		};
+		2FBBEAE008F335360078DB84 /* Build configuration list for PBXNativeTarget "max-external" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2FBBEAE108F335360078DB84 /* Development */,
+				2FBBEAE208F335360078DB84 /* Deployment */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Development;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 089C1669FE841209C02AAC07 /* Project object */;
+}
